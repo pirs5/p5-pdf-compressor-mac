@@ -1,0 +1,9 @@
+To use your exact custom app icon image:
+
+1) Save your icon PNG as:
+   Sources/PDFCompressorApp/Resources/AppIcon.png
+
+2) Clean build folder in Xcode and run.
+
+The app loads AppIcon.png from bundle resources and uses it as Dock/app icon.
+If missing, it falls back to generated icon.
