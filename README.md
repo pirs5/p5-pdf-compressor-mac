@@ -33,3 +33,11 @@ If missing, it tries common system paths.
 ## GitHub Pages
 
 A simple landing page is in `docs/index.html`.
+
+## Signed Releases
+
+A full signed/notarized macOS release pipeline is configured.
+
+See:
+- `RELEASE_PIPELINE.md`
+- `.github/workflows/release-macos.yml`
